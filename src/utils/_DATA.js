@@ -269,7 +269,6 @@ export function _saveTweet ({ text, author, replyingTo }) {
           tweets: users[author].tweets.concat([formattedTweet.id])
         }
       }
-
       res(formattedTweet)
     }, 1000)
   })
